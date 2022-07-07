@@ -1,0 +1,15 @@
+
+.content{
+    /* width: 600px; */
+    /* max-width: 600px; */
+    min-width: 600px;
+    background-color: blueviolet;
+    color: burlywood;
+    font-size: 30px;
+    margin: 0px auto;
+}
+img{
+    margin-top: 10px;
+    float: left;
+    padding: 100px;
+}

@@ -1,0 +1,22 @@
+.main{
+    border: 5px solid blue;
+    width: 1000px;
+    min-height: 1000px;
+}
+
+.box{
+    width : 100px;
+    height: 100px;
+    color: #ffffff;
+    padding: 30px;
+    font-weight: bold;
+}
+.box1{
+    background-color: red;}
+    
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: blue;
+}

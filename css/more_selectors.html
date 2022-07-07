@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title> more selectors</title>
+        <style>
+            h1,p,h3{
+                color: blue;
+            }
+            .box p{
+                color: red;
+            }
+            .inner +p{
+                color: cadetblue;
+            }
+            div[class]{
+                background-color: blueviolet;
+            }
+            div[id]{
+                background-color: yellow;
+            }
+            div[class="inner"]{
+                background-color: darkgreen;
+            }
+            .txt{
+                color: rgb(128, 0, 0);
+            }
+            a[title="link1"]{
+                color: orange;
+            }
+            a[href="flower1.jpg"]{
+                color: red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 align="center">more selectors</h1>
+        <h3>hi i am jermieorex</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, pariatur!</p>
+        <div class="box">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit cum quasi quos atque illum veritatis obcaecati quis deleniti debitis itaque.</p>
+
+        </div>
+        <div class="inner txt"> 
+            <p> first Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dignissimos.</p>
+            <p> second Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, incidunt?</p>
+        </div>
+        <div id="first">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, hic!ss</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, eos?</p>
+        <a href="#" title="link1">link-1</a>
+        <a href="#" title="link">link-2</a>
+        <a href="flower1.jpg" title="link">link-3</a>
+        <a href="#" title="link">link-4</a>
+    </body>
+</html>
